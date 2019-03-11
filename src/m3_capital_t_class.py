@@ -281,12 +281,12 @@ class CapitalT(object):
         # ---------------------------------------------------------------------
         self.h_rect.corner_2.x = self.h_rect.corner_2.x + dx
         self.v_rect.corner_2.x = self.v_rect.corner_2.x + dx
-        self.h_rect.corner_2.y = self.h_rect.corner_2.y + dx
-        self.v_rect.corner_2.y = self.v_rect.corner_2.y + dx
+        self.h_rect.corner_2.y = self.h_rect.corner_2.y + dy
+        self.v_rect.corner_2.y = self.v_rect.corner_2.y + dy
         self.h_rect.corner_1.x = self.h_rect.corner_1.x + dx
         self.v_rect.corner_1.x = self.v_rect.corner_1.x + dx
-        self.h_rect.corner_1.y = self.h_rect.corner_1.y + dx
-        self.v_rect.corner_1.y = self.v_rect.corner_1.y + dx
+        self.h_rect.corner_1.y = self.h_rect.corner_1.y + dy
+        self.v_rect.corner_1.y = self.v_rect.corner_1.y + dy
 
     def clone(self):
         """
